@@ -158,9 +158,9 @@ section h2{
     width: 100%;
     font-size: 50px;
     margin: 0;
-    font-family: "Lobster", serif;
     font-weight: 400;
     text-align: center;
+    color: #180F4A;
     font-style: normal;
 }
 
@@ -176,7 +176,7 @@ section h2{
 .card{
     display: inline-block;
     width: 30%;
-    padding: 35px;
+    padding: 20px;
     margin: 5px;
     border-radius: 10px;
     text-align: center;
@@ -186,7 +186,13 @@ section h2{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
+
 .card:hover image{
     display: none;
 }
@@ -194,7 +200,7 @@ section h2{
 .card:hover{
     background: #9c3299;
     color: white;
-    padding: 20px;
+    padding: 15px;
 }
 
 .card:hover .card-text{
